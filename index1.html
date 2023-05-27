@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(18, 18, 32);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 50px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+            align-items: center;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            /* background-color: red; */
+            font-size: 2.5rem;
+            /* margin: 60px 0; */
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            color: white;
+            background-color: #1e2167;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+
+        .rightSection img {
+            /* background-color: red; */
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purpul {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .img-top{
+            width:23px;
+            position: relative;
+            top: -32px;
+            left: -15px;
+        }
+        .vertical-title{
+            position: relative;
+             width: 150px;
+             top: 75px;
+             /* font-size: 16px; */
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 72px;
+            width: 150px;
+            color: gray;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: #0e0ela;
+            /* height: 233px; */
+        }
+        .footer{
+            display: flex;
+           padding: 23px 110px;
+          justify-content:space-evenly ; 
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer div{
+            width:123px ;
+        }
+        footer .text-center{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Pooja's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li> <a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purpul"> Pooja</span>
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="https://geekflare.com/wp-content/uploads/2019/07/developer-illustration.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <p class="text-gray">what i have done so far</p>
+            <h1>Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="https://cdn0.iconfinder.com/data/icons/startup-and-new-business-3/24/developer-woman-1024.png"
+                        alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2012-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam reprehenderit officia
+                        maxime, fuga omnis illum labore ipsam officiis sunt quidem totam, temporibus accusamus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="https://tse3.mm.bing.net/th?id=OIP.s5ujrdq0imWUFoiH0lWbNwHaHa&pid=Api&P=0&h=180"
+                        alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2012-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam reprehenderit officia
+                        maxime, fuga omnis illum labore ipsam officiis sunt quidem totam, temporibus accusamus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="https://tse1.mm.bing.net/th?id=OIP.zaiIl16zqTKDuhYIxeop0wHaHa&pid=Api&P=0&h=180"
+                    alt="">
+                <div class="vertical-title">
+                    HTML Developer (2012-2015)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam reprehenderit officia
+                    maxime, fuga omnis illum labore ipsam officiis sunt quidem totam, temporibus accusamus.
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="https://tse4.mm.bing.net/th?id=OIP.Y6P1GkxkEoLoIRsS1wMZiwHaFj&pid=Api&P=0&h=180"
+                    alt="">
+                <div class="vertical-title">
+                    HTML Developer (2012-2015)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam reprehenderit officia
+                    maxime, fuga omnis illum labore ipsam officiis sunt quidem totam, temporibus accusamus.
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="https://tse1.explicit.bing.net/th?id=OIP.Ua5AXhtGRgPuisZVmetclQHaFL&pid=Api&P=0&h=180"
+                    alt="">
+                <div class="vertical-title">
+                    HTML Developer (2012-2015)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam reprehenderit officia
+                    maxime, fuga omnis illum labore ipsam officiis sunt quidem totam, temporibus accusamus.
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="https://tse2.mm.bing.net/th?id=OIP.XSrfhPXuPv_9km9HLxdudgHaHa&pid=Api&P=0&h=180"
+                    alt="">
+                <div class="vertical-title">
+                    HTML Developer (2012-2015)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam reprehenderit officia
+                    maxime, fuga omnis illum labore ipsam officiis sunt quidem totam, temporibus accusamus.
+                </div>
+                </div>
+            </div>
+              
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>Pooja's Developer Portfolio</h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>services</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>services</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>services</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+          copyright  &#169;.poojasportfolio.com | all rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Wev Developer.', 'app Developer.', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
